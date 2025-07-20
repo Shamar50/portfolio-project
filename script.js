@@ -57,8 +57,9 @@ document.addEventListener("DOMContentLoaded", () => {
       <p>Hello! 👋 I'm your virtual assistant.</p>
       <p>Try asking me:</p>
       <ul>
-        <li>Tell me about your Data Analytics projects</li>
-        <li>What web & design work do you do?</li>
+        <li>Tell me about how you trade</li>
+        <li>What graphic design work do you do?</li>
+        <li>Tell me more about Academic writing</li>
         <li>What services do you offer?</li>
         <li>How can I contact you?</li>
       </ul>
@@ -76,16 +77,20 @@ document.addEventListener("DOMContentLoaded", () => {
   const getBotResponse = (message) => {
     const msg = message.toLowerCase();
 
-    if (msg.includes('data') || msg.includes('analytics') || msg.includes('dashboard')) {
-      return "I've worked on interactive dashboards, predictive modeling, and business reporting using tools like Excel, Power BI, and Python.";
+    if (msg.includes('Trading') || msg.includes('Forex') || msg.includes('Fx')) {
+      return "I trade based on data analysed for the past years or months to increase the percentage of accurate results.";
     }
 
-    if (msg.includes('web') || msg.includes('design') || msg.includes('website')) {
-      return "I design and develop responsive websites using HTML, CSS, JavaScript, Bootstrap, and modern UI libraries.";
+    if (msg.includes('web') || msg.includes('design') || msg.includes('graphic')) {
+      return "I design and develop passionate, creative design like; flyers, bronchures, CVs, back-drop etc for clients satisfaction, by applying all he/she wants.";
     }
 
     if (msg.includes('services') || msg.includes('offer') || msg.includes('provide')) {
-      return "My services include Data Analysis, Web Development, Digital Marketing Strategy, Branding, and Photography.";
+      return "My services include Trading, Academic writing, Graphic design.";
+    }
+
+    if (msg.includes('academic') || msg.includes('writing') || msg.includes('Wri')) {
+      return "Academic writing is a formal, structured, and evidence-based style of writing used in universities and scholar publications. It often involve formatting styles like; APA format and MPA format.";
     }
 
     if (msg.includes('contact') || msg.includes('email') || msg.includes('reach')) {

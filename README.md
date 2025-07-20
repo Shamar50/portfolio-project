@@ -1,12 +1,10 @@
-# 🎨 Data-Driven Creative Portfolio
+# 🎨 passionate-Creative Portfolio
 
-A fully responsive, vibrant one-page portfolio website for a **Data Analyst** with multidisciplinary expertise in:
+A fully responsive, vibrant one-page portfolio website for a **Designer** with multidisciplinary expertise in:
 
-- 📊 Data Analytics & Visualization
-- 🌐 Web Development
-- 📣 Digital Marketing & Campaign Strategy
-- 📷 Photography
-- 🎨 Branding & Graphic Design
+- 📊 Trading
+- 🌐 Academic Writing
+- 🎨 Graphic Design
 
 ---
 
@@ -14,9 +12,9 @@ A fully responsive, vibrant one-page portfolio website for a **Data Analyst** wi
 
 - **Hero Section** with name, tagline, and CTA
 - **About Me** section with animated counters
-- **Portfolio** with 8+ filterable project cards and modal support
+- **Portfolio** with 2+ filterable project cards and modal support
 - **Services** showcased with icons and brief descriptions
-- **Contact Form** using [Formspree](https://formspree.io/)
+- **Contact Form** using [Formspree](https://formspree.io/f/xanjgvye)
 - **Sticky Navbar** and **Smooth Scrolling**
 - **Dark/Light Mode** toggle
 - **AI Chatbot Placeholder** (expandable with OpenAI API)
